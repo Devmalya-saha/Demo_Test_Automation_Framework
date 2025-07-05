@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SmokeTests">
+    <test name="UI Smoke Test">
+        <classes>
+            <class name="com.greenandtasty.runner.ui.SmokeTestRunner"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite" parallel="tests" thread-count="2">
+    <test name="API Regression Tests">
+        <classes>
+            <class name="com.greenandtasty.runner.api.RegressionTestRunner"/>
+        </classes>
+    </test>
+    <test name="UI Regression Tests">
+        <classes>
+            <class name="com.greenandtasty.runner.ui.RegressionTestRunner"/>
+        </classes>
+    </test>
+</suite>
